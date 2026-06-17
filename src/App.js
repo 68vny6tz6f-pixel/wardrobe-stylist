@@ -1,7 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<React.StrictMode><App /></React.StrictMode>);
+function App() {
+  return (
+    <div className="App">
+      {/* Your component code here */}
+      <h1>Hello, Wardrobe Stylist!</h1>
+    </div>
+  );
+}
+
+export default App; // Ensure this line is present at the end
+
 
